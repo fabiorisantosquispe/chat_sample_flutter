@@ -1,0 +1,40 @@
+name: chat_sample_flutter
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  provider:
+  socket_io_client: ^1.0.1
+  timeago: ^3.0.2
+  url_launcher: ^6.0.2
+  flutter_parsed_text: ^2.1.0
+  font_awesome_flutter: ^9.0.0
+  fancy_shimmer_image: ^2.0.0-nullsafety.0
+  http:
+  stream_transform: ^2.0.0
+  loading_indicator: ^3.1.1
+  rxdart: ^0.27.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  mockito: ^5.4.2
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/images/
+
